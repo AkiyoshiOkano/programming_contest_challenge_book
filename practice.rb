@@ -1,3 +1,5 @@
+### Q1 くじびき
+
 def solve1(n,m,k)
   f = false
   for a in 0..(n-1) do
@@ -26,6 +28,8 @@ k = [1, 3, 5]
 
 #solve1(n,m,k)
 
+### Q2. 三角形
+
 def solve2(n, a)
   answer = 0
   for i in 0..(n-1) do
@@ -50,6 +54,8 @@ n = 5
 a = [2, 3, 4, 5, 10]
 
 #solve2(n,a)
+
+### Q3. Ants（POJ No.1852）
 
 def solve3(length, ants)
   all_minT = 0
@@ -76,6 +82,7 @@ x = [2, 6, 7]
 
 #solve3(l, x)
 
+### Q4 ハードルが上がった「くじびき」
 
 def binaly_search(x,k,n)
   l = 0
